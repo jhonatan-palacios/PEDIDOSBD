@@ -2,8 +2,6 @@
 -- Crear la base de datos y seleccionarla para trabajar
 CREATE DATABASE IF NOT EXISTS tienda_online;
 USE tienda_online;
-
--- Crear la tabla comercial (Entidad 1)
 CREATE TABLE IF NOT EXISTS comercial (
     id INT(10) PRIMARY KEY,
     nombre VARCHAR(100),
